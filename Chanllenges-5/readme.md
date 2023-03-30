@@ -35,6 +35,7 @@ frontDoorResponse('Stands so high');
 ```
 
 **2. Capitalize a word**
+
 Now that you have all the correct letters, all you need to do to get the password for the front door is to correctly capitalize the word.
 
 Implement the function frontDoorPassword that accepts a string (the combined letters you found in task 1) and returns it correctly capitalized.
@@ -48,6 +49,7 @@ frontDoorPassword('shire');
 ```
 
 **3. Get the last letter of a sentence**
+
 To determine letters for the back door password, you need to respond with the last letter of the line of the poem that the guard recites to you.
 
 The members of the poetry club are really clever. The poem mentioned before is also telestich, which means that the last letter of each sentence also forms a word:
@@ -75,6 +77,7 @@ backDoorResponse('Stands so high   ');
 ```
 
 **4. Be polite**
+
 To enter the poetry club via the back door, you need to be extra polite. So to derive the password, this time you need to correctly capitalize the word and add ', please' at the end.
 
 Implement the function backDoorPassword that accepts a string (the combined letters you found in task 3) and returns the polite version of the capitalized password.
